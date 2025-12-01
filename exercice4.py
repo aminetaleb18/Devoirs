@@ -6,9 +6,9 @@ lettres_qte = 0
 chiffres_qte = 0
 
 for caractere in chaine:
-    if caractere.isalpha():      # si c'est une lettre
+    if caractere.isalpha():
         lettres_qte += 1
-    elif caractere.isdigit():    # si c'est un chiffre
+    elif caractere.isdigit():
         chiffres_qte += 1
 
 print("Lettres :", lettres_qte)
